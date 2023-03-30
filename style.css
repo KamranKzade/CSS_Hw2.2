@@ -1,4 +1,4 @@
-ul>li,
+.Header>li,
 p {
     display: inline-block;
     text-decoration: none;
@@ -7,7 +7,7 @@ p {
     text-align: center;
 }
 
-li>p {
+.Header>li>p {
     font-size: 1.5em;
     font-weight: 400;
     color: #7B8894;
@@ -16,14 +16,78 @@ li>p {
 
 
 
-ul {
+.Header {
     background-color: #35464F;
     width: 90%;
     margin: auto;
     height: 150px;
 }
 
-p:hover{
+.Header>li>p:hover {
     color: #F6F8FA;
     cursor: pointer;
+}
+
+.BodyHeader {
+    background-color: #F6F8FA;
+    width: 90%;
+    height: 124px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.BodyHeader li {
+    display: inline-block;
+    width: 19%;
+    /* margin: auto; */
+    margin-top: 30px;
+    text-align: center;
+}
+
+.yazi {
+    display: inline-block;
+    width: 48%;
+    margin: auto;
+    color: #677D8C;
+    padding: 0%;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+}
+
+.ButtonStyle {
+    background-color: #4AB3E3;
+    color: white;
+    font-size: 2em;
+    width: 200px;
+    height: 26px;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+    padding-left: 15px;
+    margin-left: 45px;
+    border-radius: 30px;
+}
+
+
+.say {
+    width: 30%;
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #F8F9FA;
+    background-color: #D3DBE0;
+    border-radius: 40%;
+}
+
+.say:hover{
+    cursor: pointer;
+    background-color: #3CA9E4;
+}
+
+.BodyHeader li:hover
+{
+    cursor: pointer;
+    border-bottom: 5px solid #3CA9E4;
 }
