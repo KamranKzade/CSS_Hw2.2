@@ -116,6 +116,7 @@ tr>th {
     text-align: center;
     font-weight: 500;
     height: 80px;
+    color: #5D7585;
 }
 
 
@@ -138,38 +139,43 @@ tr>td {
 .tdSimple {
     font-size: 1.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #617888;
+}
+
+.tdName{
+    text-align: left;
 }
 
 .tdName>img {
-    width: 20%;
-    height: 150%;
+    width: 25%;
+    height: 180%;
     border-radius: 50%;
-    display: inline-block;
-    margin-left: 15px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: left;
 }
 
 .tdName>pre {
     display: inline-block;
     margin-left: 15px;
+    color: #617888;
     font-size: 3.5em;
+    font-weight: 350;
 }
 
+.TaskTd{
+    font-size: 1.5em;
+}
 
-/* 
-table{
-    margin:auto;
-    margin-top: 100px;
-    border: 2px solid black;
+.TaskTd> pre{
+    width: 50%;
+    margin: auto;
+    color: #FFFBFC;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-td{
-    border: 0.5px solid black;
-    padding: 10px;
-}
-tr{
-    padding: 5px;
-    border: 1px solid springgreen;
-}
+
 tr:hover{
-cursor: pointer;
-background-color: red;
-} */
+    background-color: #3CA9E4;
+    color:#F0F3F7 ;
+}
