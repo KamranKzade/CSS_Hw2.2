@@ -18,8 +18,6 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .Header {
     background-color: #35464F;
     width: 90%;
@@ -43,7 +41,6 @@ p {
 .BodyHeader li {
     display: inline-block;
     width: 19%;
-    /* margin: auto; */
     margin-top: 30px;
     text-align: center;
 }
@@ -73,7 +70,6 @@ p {
     border-radius: 30px;
 }
 
-
 .say {
     width: 30%;
     margin-left: 20px;
@@ -94,7 +90,6 @@ p {
     cursor: pointer;
     border-bottom: 5px solid #3CA9E4;
 }
-
 
 table {
     width: 80%;
@@ -118,7 +113,6 @@ tr>th {
     height: 80px;
     color: #5D7585;
 }
-
 
 th{
     padding: 10px;
