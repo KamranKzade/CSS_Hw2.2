@@ -1,0 +1,29 @@
+ul>li,
+p {
+    display: inline-block;
+    text-decoration: none;
+    width: 14%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+li>p {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #7B8894;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+ul {
+    background-color: #35464F;
+    width: 90%;
+    margin: auto;
+    height: 150px;
+}
+
+p:hover{
+    color: #F6F8FA;
+    cursor: pointer;
+}
